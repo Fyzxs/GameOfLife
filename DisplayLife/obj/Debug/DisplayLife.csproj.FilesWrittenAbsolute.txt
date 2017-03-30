@@ -1,0 +1,8 @@
+/home/nija/RiderProjects/GameOfLife/DisplayLife/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/home/nija/RiderProjects/GameOfLife/DisplayLife/bin/Debug/DisplayLife.exe.mdb
+/home/nija/RiderProjects/GameOfLife/DisplayLife/bin/Debug/DisplayLife.exe
+/home/nija/RiderProjects/GameOfLife/DisplayLife/obj/Debug/DisplayLife.exe
+/home/nija/RiderProjects/GameOfLife/DisplayLife/obj/Debug/DisplayLife.exe.mdb
+/home/nija/RiderProjects/GameOfLife/DisplayLife/bin/Debug/GameOfLife.dll
+/home/nija/RiderProjects/GameOfLife/DisplayLife/bin/Debug/GameOfLife.dll.mdb
+/home/nija/RiderProjects/GameOfLife/DisplayLife/bin/Debug/nunit.framework.dll

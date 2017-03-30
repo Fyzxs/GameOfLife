@@ -2,6 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="addf47d3-45be-410f-a14f-76cb76d47628" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.GameOfLife/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.GameOfLife/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.GameOfLife/riderModule.iml" afterPath="$PROJECT_DIR$/.idea/.idea.GameOfLife/riderModule.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameOfLife.sln" afterPath="$PROJECT_DIR$/GameOfLife.sln" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameOfLife/CellTests.cs" afterPath="$PROJECT_DIR$/GameOfLife/CellTests.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -11,29 +14,84 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="CellTests.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CellTests.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/GameOfLife/CellTests.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="91" column="32" lean-forward="false" selection-start-line="91" selection-start-column="32" selection-end-line="91" selection-end-column="32" />
+            <state relative-caret-position="135">
+              <caret line="100" column="9" lean-forward="false" selection-start-line="100" selection-start-column="9" selection-end-line="100" selection-end-column="9" />
               <folding>
-                <marker date="1490840719567" expanded="true" signature="44:4144" ph="{...}" />
-                <marker date="1490840719567" expanded="true" signature="51:405" ph="/* Any live cell with fewer than two live neighbours dies, as if caused by underpopulation. ... */" />
-                <marker date="1490840719567" expanded="true" signature="450:3160" ph="{...}" />
-                <marker date="1490840719567" expanded="true" signature="786:942" ph="{...}" />
-                <marker date="1490840719567" expanded="true" signature="1006:1162" ph="{...}" />
-                <marker date="1490840719567" expanded="true" signature="1270:1477" ph="{...}" />
-                <marker date="1490840719567" expanded="true" signature="1578:1778" ph="{...}" />
-                <marker date="1490840719567" expanded="true" signature="1879:2079" ph="{...}" />
-                <marker date="1490840719567" expanded="true" signature="2182:2384" ph="{...}" />
-                <marker date="1490840719567" expanded="true" signature="2491:2697" ph="{...}" />
-                <marker date="1490840719567" expanded="true" signature="2798:2998" ph="{...}" />
-                <marker date="1490840719567" expanded="true" signature="3196:3745" ph="{...}" />
-                <marker date="1490840719567" expanded="true" signature="3767:4142" ph="{...}" />
-                <marker date="1490840719567" expanded="true" signature="3876:3924" ph="{...}" />
+                <marker date="1490841213506" expanded="true" signature="6:77" ph="..." />
+                <marker date="1490841213506" expanded="true" signature="99:4645" ph="{...}" />
+                <marker date="1490841213506" expanded="true" signature="106:460" ph="/* Any live cell with fewer than two live neighbours dies, as if caused by underpopulation. ... */" />
+                <marker date="1490841213506" expanded="true" signature="505:3661" ph="{...}" />
+                <marker date="1490841213506" expanded="true" signature="956:1112" ph="{...}" />
+                <marker date="1490841213506" expanded="true" signature="1176:1332" ph="{...}" />
+                <marker date="1490841213506" expanded="true" signature="1440:1647" ph="{...}" />
+                <marker date="1490841213506" expanded="true" signature="1748:1948" ph="{...}" />
+                <marker date="1490841213506" expanded="true" signature="2057:2265" ph="{...}" />
+                <marker date="1490841213506" expanded="true" signature="2373:2580" ph="{...}" />
+                <marker date="1490841213506" expanded="true" signature="2683:2885" ph="{...}" />
+                <marker date="1490841213506" expanded="true" signature="2992:3198" ph="{...}" />
+                <marker date="1490841213506" expanded="true" signature="3299:3499" ph="{...}" />
+                <marker date="1490841213506" expanded="true" signature="3697:4246" ph="{...}" />
+                <marker date="1490841213506" expanded="true" signature="4268:4643" ph="{...}" />
+                <marker date="1490841213506" expanded="true" signature="4377:4425" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DisplayLife/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="297">
+              <caret line="30" column="16" lean-forward="false" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+              <folding>
+                <marker date="1490843735944" expanded="true" signature="6:31" ph="..." />
+                <marker date="1490843735944" expanded="true" signature="54:4102" ph="{...}" />
+                <marker date="1490843735944" expanded="true" signature="83:4100" ph="{...}" />
+                <marker date="1490843735944" expanded="true" signature="200:1145" ph="{...}" />
+                <marker date="1490843735944" expanded="true" signature="452:823" ph="{...}" />
+                <marker date="1490843735944" expanded="true" signature="529:772" ph="{...}" />
+                <marker date="1490843735944" expanded="true" signature="955:1135" ph="{...}" />
+                <marker date="1490843735944" expanded="true" signature="1197:1521" ph="{...}" />
+                <marker date="1490843735944" expanded="true" signature="1267:1511" ph="{...}" />
+                <marker date="1490843735944" expanded="true" signature="1344:1460" ph="{...}" />
+                <marker date="1490843735944" expanded="true" signature="1572:2186" ph="{...}" />
+                <marker date="1490843735944" expanded="true" signature="1702:1937" ph="{...}" />
+                <marker date="1490843735944" expanded="true" signature="1779:1923" ph="{...}" />
+                <marker date="1490843735944" expanded="true" signature="1997:2176" ph="{...}" />
+                <marker date="1490843735944" expanded="true" signature="2074:2162" ph="{...}" />
+                <marker date="1490843735944" expanded="true" signature="2278:4094" ph="{...}" />
+                <marker date="1490843735944" expanded="true" signature="2335:2441" ph="{...}" />
+                <marker date="1490843735944" expanded="true" signature="2459:2514" ph="{...}" />
+                <marker date="1490843735944" expanded="true" signature="2530:2632" ph="{...}" />
+                <marker date="1490843735944" expanded="true" signature="2650:2705" ph="{...}" />
+                <marker date="1490843735944" expanded="true" signature="2721:2827" ph="{...}" />
+                <marker date="1490843735944" expanded="true" signature="2845:2900" ph="{...}" />
+                <marker date="1490843735944" expanded="true" signature="2917:3019" ph="{...}" />
+                <marker date="1490843735944" expanded="true" signature="3037:3092" ph="{...}" />
+                <marker date="1490843735944" expanded="true" signature="3108:3208" ph="{...}" />
+                <marker date="1490843735944" expanded="true" signature="3226:3281" ph="{...}" />
+                <marker date="1490843735944" expanded="true" signature="3297:3399" ph="{...}" />
+                <marker date="1490843735944" expanded="true" signature="3417:3472" ph="{...}" />
+                <marker date="1490843735944" expanded="true" signature="3488:3594" ph="{...}" />
+                <marker date="1490843735944" expanded="true" signature="3612:3667" ph="{...}" />
+                <marker date="1490843735944" expanded="true" signature="3683:3785" ph="{...}" />
+                <marker date="1490843735944" expanded="true" signature="3803:3858" ph="{...}" />
+                <marker date="1490843735944" expanded="true" signature="3874:3980" ph="{...}" />
+                <marker date="1490843735944" expanded="true" signature="3998:4053" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -57,6 +115,7 @@
       <list>
         <option value="$PROJECT_DIR$/GameOfLife/Tests.cs" />
         <option value="$PROJECT_DIR$/GameOfLife/CellTests.cs" />
+        <option value="$PROJECT_DIR$/DisplayLife/Program.cs" />
       </list>
     </option>
   </component>
@@ -96,11 +155,25 @@
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="GameOfLife (1 project)" />
+              <option name="myItemId" value="GameOfLife (2 projects)" />
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="GameOfLife" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GameOfLife (2 projects)" />
+              <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DisplayLife" />
               <option name="myItemType" value="com.jetbrains.resharper.projectView.solutionExplorer.SolutionExplorerNodeRider" />
             </PATH_ELEMENT>
           </PATH>
@@ -129,7 +202,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected=".NET Project.Default">
+  <component name="RunManager" selected=".NET Project.DisplayLife">
+    <configuration default="false" name="DisplayLife" type="DotNetProject" factoryName=".NET Project" temporary="true">
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/DisplayLife/DisplayLife.csproj" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.5" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/DisplayLife/bin/Debug/DisplayLife.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DisplayLife/bin/Debug" />
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="DotNetProject" factoryName=".NET Project">
       <option name="PROJECT_PATH" value="" />
       <option name="PROJECT_KIND" value="None" />
@@ -173,9 +258,15 @@
       <envs />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue=".NET Project.Default" />
+      <item index="1" class="java.lang.String" itemvalue=".NET Project.DisplayLife" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue=".NET Project.DisplayLife" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -187,7 +278,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1490834486988</updated>
-      <workItem from="1490834490436" duration="6228000" />
+      <workItem from="1490834490436" duration="9243000" />
     </task>
     <task id="LOCAL-00001" summary="PopulationControl">
       <created>1490836440227</created>
@@ -200,7 +291,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6228000" />
+    <option name="totallyTimeSpent" value="9243000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -216,21 +307,21 @@
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944834" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17337461" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Change Signature" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25485626" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32944834" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993808" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -252,30 +343,87 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/DisplayLife/Program.cs</url>
+          <line>16</line>
+          <properties startOffset="405" endOffset="823" documentPath="$PROJECT_DIR$/DisplayLife/Program.cs" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
     </breakpoint-manager>
-    <watches-manager />
+    <watches-manager>
+      <configuration name="DotNetProject">
+        <watch expression="Console.BufferWidth()" language="TEXT" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/GameOfLife/CellTests.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="91" column="32" lean-forward="false" selection-start-line="91" selection-start-column="32" selection-end-line="91" selection-end-column="32" />
+        <state relative-caret-position="135">
+          <caret line="100" column="9" lean-forward="false" selection-start-line="100" selection-start-column="9" selection-end-line="100" selection-end-column="9" />
           <folding>
-            <marker date="1490840719567" expanded="true" signature="44:4144" ph="{...}" />
-            <marker date="1490840719567" expanded="true" signature="51:405" ph="/* Any live cell with fewer than two live neighbours dies, as if caused by underpopulation. ... */" />
-            <marker date="1490840719567" expanded="true" signature="450:3160" ph="{...}" />
-            <marker date="1490840719567" expanded="true" signature="786:942" ph="{...}" />
-            <marker date="1490840719567" expanded="true" signature="1006:1162" ph="{...}" />
-            <marker date="1490840719567" expanded="true" signature="1270:1477" ph="{...}" />
-            <marker date="1490840719567" expanded="true" signature="1578:1778" ph="{...}" />
-            <marker date="1490840719567" expanded="true" signature="1879:2079" ph="{...}" />
-            <marker date="1490840719567" expanded="true" signature="2182:2384" ph="{...}" />
-            <marker date="1490840719567" expanded="true" signature="2491:2697" ph="{...}" />
-            <marker date="1490840719567" expanded="true" signature="2798:2998" ph="{...}" />
-            <marker date="1490840719567" expanded="true" signature="3196:3745" ph="{...}" />
-            <marker date="1490840719567" expanded="true" signature="3767:4142" ph="{...}" />
-            <marker date="1490840719567" expanded="true" signature="3876:3924" ph="{...}" />
+            <marker date="1490841213506" expanded="true" signature="6:77" ph="..." />
+            <marker date="1490841213506" expanded="true" signature="99:4645" ph="{...}" />
+            <marker date="1490841213506" expanded="true" signature="106:460" ph="/* Any live cell with fewer than two live neighbours dies, as if caused by underpopulation. ... */" />
+            <marker date="1490841213506" expanded="true" signature="505:3661" ph="{...}" />
+            <marker date="1490841213506" expanded="true" signature="956:1112" ph="{...}" />
+            <marker date="1490841213506" expanded="true" signature="1176:1332" ph="{...}" />
+            <marker date="1490841213506" expanded="true" signature="1440:1647" ph="{...}" />
+            <marker date="1490841213506" expanded="true" signature="1748:1948" ph="{...}" />
+            <marker date="1490841213506" expanded="true" signature="2057:2265" ph="{...}" />
+            <marker date="1490841213506" expanded="true" signature="2373:2580" ph="{...}" />
+            <marker date="1490841213506" expanded="true" signature="2683:2885" ph="{...}" />
+            <marker date="1490841213506" expanded="true" signature="2992:3198" ph="{...}" />
+            <marker date="1490841213506" expanded="true" signature="3299:3499" ph="{...}" />
+            <marker date="1490841213506" expanded="true" signature="3697:4246" ph="{...}" />
+            <marker date="1490841213506" expanded="true" signature="4268:4643" ph="{...}" />
+            <marker date="1490841213506" expanded="true" signature="4377:4425" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DisplayLife/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="30" column="16" lean-forward="false" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+          <folding>
+            <marker date="1490843735944" expanded="true" signature="6:31" ph="..." />
+            <marker date="1490843735944" expanded="true" signature="54:4102" ph="{...}" />
+            <marker date="1490843735944" expanded="true" signature="83:4100" ph="{...}" />
+            <marker date="1490843735944" expanded="true" signature="200:1145" ph="{...}" />
+            <marker date="1490843735944" expanded="true" signature="452:823" ph="{...}" />
+            <marker date="1490843735944" expanded="true" signature="529:772" ph="{...}" />
+            <marker date="1490843735944" expanded="true" signature="955:1135" ph="{...}" />
+            <marker date="1490843735944" expanded="true" signature="1197:1521" ph="{...}" />
+            <marker date="1490843735944" expanded="true" signature="1267:1511" ph="{...}" />
+            <marker date="1490843735944" expanded="true" signature="1344:1460" ph="{...}" />
+            <marker date="1490843735944" expanded="true" signature="1572:2186" ph="{...}" />
+            <marker date="1490843735944" expanded="true" signature="1702:1937" ph="{...}" />
+            <marker date="1490843735944" expanded="true" signature="1779:1923" ph="{...}" />
+            <marker date="1490843735944" expanded="true" signature="1997:2176" ph="{...}" />
+            <marker date="1490843735944" expanded="true" signature="2074:2162" ph="{...}" />
+            <marker date="1490843735944" expanded="true" signature="2278:4094" ph="{...}" />
+            <marker date="1490843735944" expanded="true" signature="2335:2441" ph="{...}" />
+            <marker date="1490843735944" expanded="true" signature="2459:2514" ph="{...}" />
+            <marker date="1490843735944" expanded="true" signature="2530:2632" ph="{...}" />
+            <marker date="1490843735944" expanded="true" signature="2650:2705" ph="{...}" />
+            <marker date="1490843735944" expanded="true" signature="2721:2827" ph="{...}" />
+            <marker date="1490843735944" expanded="true" signature="2845:2900" ph="{...}" />
+            <marker date="1490843735944" expanded="true" signature="2917:3019" ph="{...}" />
+            <marker date="1490843735944" expanded="true" signature="3037:3092" ph="{...}" />
+            <marker date="1490843735944" expanded="true" signature="3108:3208" ph="{...}" />
+            <marker date="1490843735944" expanded="true" signature="3226:3281" ph="{...}" />
+            <marker date="1490843735944" expanded="true" signature="3297:3399" ph="{...}" />
+            <marker date="1490843735944" expanded="true" signature="3417:3472" ph="{...}" />
+            <marker date="1490843735944" expanded="true" signature="3488:3594" ph="{...}" />
+            <marker date="1490843735944" expanded="true" signature="3612:3667" ph="{...}" />
+            <marker date="1490843735944" expanded="true" signature="3683:3785" ph="{...}" />
+            <marker date="1490843735944" expanded="true" signature="3803:3858" ph="{...}" />
+            <marker date="1490843735944" expanded="true" signature="3874:3980" ph="{...}" />
+            <marker date="1490843735944" expanded="true" signature="3998:4053" ph="{...}" />
           </folding>
         </state>
       </provider>

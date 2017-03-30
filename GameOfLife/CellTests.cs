@@ -1,4 +1,6 @@
-﻿using NUnit.Framework;
+﻿using System.Data.Common;
+using System.Net.WebSockets;
+using NUnit.Framework;
 
 namespace GameOfLife
 {
@@ -13,9 +15,11 @@ Any dead cell with exactly three live neighbours becomes a live cell, as if by r
     {
         private const int MaxStaticNeighbors = 3;
         private const int OverpopulationNeighbors = 4;
+        private const int OverRegenerationNeighbors = 4;
         private const int RegenerationNeighbors = 3;
+        private const int UnderRegenerationNeighbors = 2;
         private const int MinStaticNeighbors = 2;
-        private const int UnderpopulationNeighbors = 0;
+        private const int UnderpopulationNeighbors = 1;
 
         [Test]
         public void CellShouldBeAliveGivenAlive()
@@ -52,10 +56,19 @@ Any dead cell with exactly three live neighbours becomes a live cell, as if by r
         }
 
         [Test]
-        public void IsAliveShouldBeFalseAfterDeadCellUpdateGivenMinStaticNeighbors()
+        public void IsAliveShouldBeFalseAfterDeadCellUpdateGivenUnderRegenerationNeighbors()
         {
             Cell cell = DeadCell();
-            new PopulationControl().UpdateState(cell, MinStaticNeighbors);
+            new PopulationControl().UpdateState(cell, UnderRegenerationNeighbors);
+            cell.Update();
+            Assert.False(cell.IsAlive());
+        }
+
+        [Test]
+        public void IsAliveShouldBeFalseAfterDeadCellUpdateGivenOverRegenerationNeighbors()
+        {
+            Cell cell = DeadCell();
+            new PopulationControl().UpdateState(cell, OverRegenerationNeighbors);
             cell.Update();
             Assert.False(cell.IsAlive());
         }
