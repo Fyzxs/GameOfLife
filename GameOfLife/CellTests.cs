@@ -87,15 +87,9 @@ Any dead cell with exactly three live neighbours becomes a live cell, as if by r
             Assert.True(cell.IsAlive());
         }
 
-        private static Cell AliveCell()
-        {
-            return new Cell(PopulationControl.Alive);
-        }
+        private static Cell AliveCell() => new Cell(PopulationControl.Alive);
 
-        private static Cell DeadCell()
-        {
-            return new Cell(PopulationControl.Dead);
-        }
+        private static Cell DeadCell() => new Cell(PopulationControl.Dead);
     }
 
     public class PopulationControl
@@ -105,17 +99,11 @@ Any dead cell with exactly three live neighbours becomes a live cell, as if by r
 
         private delegate object CellDeath(int neighbors);
 
-        private static readonly CellDeath LivingCell =
-            neighbors => neighbors < 2 || neighbors > 3 ? Dead : Alive;
+        private static readonly CellDeath LivingCell = neighbors => neighbors < 2 || neighbors > 3 ? Dead : Alive;
 
-        private static readonly CellDeath DeadCell =
-            neighbors => neighbors == 3 ? Alive : Dead;
+        private static readonly CellDeath DeadCell = neighbors => neighbors == 3 ? Alive : Dead;
 
-        public void UpdateState(Cell cell, int neighbors)
-        {
-            object futureState = cell.IsAlive() ? LivingCell(neighbors) : DeadCell(neighbors);
-            cell.SetUpdateState(futureState);
-        }
+        public void UpdateState(Cell cell, int neighbors) => cell.SetUpdateState(cell.IsAlive() ? LivingCell(neighbors) : DeadCell(neighbors));
     }
     public class Cell
     {
@@ -127,19 +115,10 @@ Any dead cell with exactly three live neighbours becomes a live cell, as if by r
             _state = state;
         }
 
-        public bool IsAlive()
-        {
-            return _state == PopulationControl.Alive;
-        }
+        public bool IsAlive() => _state == PopulationControl.Alive;
 
-        public void SetUpdateState(object futureState)
-        {
-            _updateState = futureState;
-        }
+        public void SetUpdateState(object futureState) => _updateState = futureState;
 
-        public void Update()
-        {
-            _state = _updateState;
-        }
+        public void Update() => _state = _updateState;
     }
 }
