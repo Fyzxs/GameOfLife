@@ -1,5 +1,4 @@
-﻿using System.Runtime;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 
 namespace GameOfLife
 {
@@ -12,10 +11,16 @@ Any dead cell with exactly three live neighbours becomes a live cell, as if by r
     [TestFixture]
     public class CellTests
     {
+        private const int MaxStaticNeighbors = 3;
+        private const int OverpopulationNeighbors = 4;
+        private const int RegenerationNeighbors = 3;
+        private const int MinStaticNeighbors = 2;
+        private const int UnderpopulationNeighbors = 0;
+
         [Test]
         public void CellShouldBeAliveGivenAlive()
         {
-            Cell cell = new PopulationControl().SpawnLivingCell();
+            Cell cell = new Cell(PopulationControl.Alive);
             bool isAlive = cell.IsAlive();
             Assert.True(isAlive);
         }
@@ -23,105 +28,118 @@ Any dead cell with exactly three live neighbours becomes a live cell, as if by r
         [Test]
         public void CellShouldBeDeadGivenDead()
         {
-            Cell cell = new PopulationControl().SpawnDeadCell();
+            Cell cell = new Cell(PopulationControl.Dead);
             bool isAlive = cell.IsAlive();
             Assert.False(isAlive);
         }
 
         [Test]
-        public void PopulationControlShouldSpawnLivingCell()
+        public void IsAliveShouldBeFalseAfterAliveCellUpdateGivenUnderpopulationNeighbors()
         {
-            Cell cell = SpawnLivingCell();
-            bool isAlive = cell.IsAlive();
-            Assert.True(isAlive);
+            Cell cell = AliveCell();
+            new PopulationControl().UpdateState(cell, UnderpopulationNeighbors);
+            cell.Update();
+            Assert.False(cell.IsAlive());
         }
 
         [Test]
-        public void PopulationControlShouldSpawnDeadCell()
+        public void IsAliveShouldBeTrueAfterAliveCellUpdateGivenMinStaticNeighbors()
         {
-            Cell cell = SpawnDeadCell();
-            bool isAlive = cell.IsAlive();
-            Assert.False(isAlive);
+            Cell cell = AliveCell();
+            new PopulationControl().UpdateState(cell, MinStaticNeighbors);
+            cell.Update();
+            Assert.True(cell.IsAlive());
         }
 
         [Test]
-        public void PopulationControlShouldKillLivingCellGivenUnderpopulated()
+        public void IsAliveShouldBeFalseAfterDeadCellUpdateGivenMinStaticNeighbors()
         {
-            PopulationControl populationControl = new PopulationControl();
-            Cell cell = SpawnLivingCell();
-            bool shouldKill = populationControl.ShouldKill(cell, 0) &&
-                              populationControl.ShouldKill(cell, 1);
-            Assert.True(shouldKill);
+            Cell cell = DeadCell();
+            new PopulationControl().UpdateState(cell, MinStaticNeighbors);
+            cell.Update();
+            Assert.False(cell.IsAlive());
         }
 
         [Test]
-        public void PopulationControlShouldNotKillLivingCellGivenNotUnderpopulated()
+        public void IsAliveShouldBeTrueAfterDeadCellUpdateGivenRegenerationNeighbors()
         {
-            PopulationControl populationControl = new PopulationControl();
-            Cell cell = SpawnLivingCell();
-            bool shouldKill = populationControl.ShouldKill(cell, 2);
-            Assert.False(shouldKill);
+            Cell cell = DeadCell();
+            new PopulationControl().UpdateState(cell, RegenerationNeighbors);
+            cell.Update();
+            Assert.True(cell.IsAlive());
         }
+
         [Test]
-        public void PopulationControlShouldNotKillLivingCellGivenNotOverpopulated()
+        public void IsAliveShouldBeFalseAfterAliveCellUpdateGivenOverpopulationNeighbors()
         {
-            PopulationControl populationControl = new PopulationControl();
-            Cell cell = SpawnLivingCell();
-            bool shouldKill = populationControl.ShouldKill(cell, 4);
-            Assert.True(shouldKill);
+            Cell cell = AliveCell();
+            new PopulationControl().UpdateState(cell, OverpopulationNeighbors);
+            cell.Update();
+            Assert.False(cell.IsAlive());
         }
 
-        private static Cell SpawnLivingCell()
+        [Test]
+        public void IsAliveShouldBeTrueAfterAliveCellUpdateGivenMaxStaticNeighbors()
         {
-            return new PopulationControl().SpawnLivingCell();
+            Cell cell = AliveCell();
+            new PopulationControl().UpdateState(cell, MaxStaticNeighbors);
+            cell.Update();
+            Assert.True(cell.IsAlive());
         }
 
-        private static Cell SpawnDeadCell()
+        private static Cell AliveCell()
         {
-            return new PopulationControl().SpawnDeadCell();
+            return new Cell(PopulationControl.Alive);
+        }
+
+        private static Cell DeadCell()
+        {
+            return new Cell(PopulationControl.Dead);
         }
     }
 
     public class PopulationControl
     {
-        public Cell SpawnLivingCell()
-        {
-            return new Cell(true);
-        }
+        public static readonly object Alive = new object();
+        public static readonly object Dead = new object();
 
-        public Cell SpawnDeadCell()
-        {
-            return new Cell(false);
-        }
+        private delegate object CellDeath(int neighbors);
 
-        public bool ShouldKill(Cell cell, int neighbors)
-        {
-            return Underpopulated(neighbors) || Overpopulated(neighbors);
-        }
+        private static readonly CellDeath LivingCell =
+            neighbors => neighbors < 2 || neighbors > 3 ? Dead : Alive;
 
-        private static bool Overpopulated(int neighbors)
-        {
-            return neighbors > 3;
-        }
+        private static readonly CellDeath DeadCell =
+            neighbors => neighbors == 3 ? Alive : Dead;
 
-        private static bool Underpopulated(int neighbors)
+        public void UpdateState(Cell cell, int neighbors)
         {
-            return neighbors < 2;
+            object futureState = cell.IsAlive() ? LivingCell(neighbors) : DeadCell(neighbors);
+            cell.SetUpdateState(futureState);
         }
     }
-
     public class Cell
     {
-        private readonly bool _isAlive;
+        private object _state;
+        private object _updateState;
 
-        public Cell(bool isAlive)
+        public Cell(object state)
         {
-            _isAlive = isAlive;
+            _state = state;
         }
 
         public bool IsAlive()
         {
-            return _isAlive;
+            return _state == PopulationControl.Alive;
+        }
+
+        public void SetUpdateState(object futureState)
+        {
+            _updateState = futureState;
+        }
+
+        public void Update()
+        {
+            _state = _updateState;
         }
     }
 }

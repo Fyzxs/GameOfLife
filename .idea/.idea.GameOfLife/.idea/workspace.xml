@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="addf47d3-45be-410f-a14f-76cb76d47628" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.idea.GameOfLife/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.GameOfLife/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/GameOfLife/CellTests.cs" afterPath="$PROJECT_DIR$/GameOfLife/CellTests.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,37 +17,43 @@
       <file leaf-file-name="CellTests.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/GameOfLife/CellTests.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="98" column="73" lean-forward="true" selection-start-line="98" selection-start-column="73" selection-end-line="98" selection-end-column="73" />
+            <state relative-caret-position="2130">
+              <caret line="142" column="9" lean-forward="true" selection-start-line="142" selection-start-column="9" selection-end-line="142" selection-end-column="9" />
               <folding>
-                <marker date="1490836369687" expanded="true" signature="6:44" ph="..." />
-                <marker date="1490836369687" expanded="true" signature="66:3579" ph="{...}" />
-                <marker date="1490836369687" expanded="true" signature="73:427" ph="/* Any live cell with fewer than two live neighbours dies, as if caused by underpopulation. ... */" />
-                <marker date="1490836369687" expanded="true" signature="472:2724" ph="{...}" />
-                <marker date="1490836369687" expanded="true" signature="543:707" ph="{...}" />
-                <marker date="1490836369687" expanded="true" signature="771:934" ph="{...}" />
-                <marker date="1490836369687" expanded="true" signature="1011:1151" ph="{...}" />
-                <marker date="1490836369687" expanded="true" signature="1226:1365" ph="{...}" />
-                <marker date="1490836369687" expanded="true" signature="1460:1775" ph="{...}" />
-                <marker date="1490836369687" expanded="true" signature="1876:2121" ph="{...}" />
-                <marker date="1490836369687" expanded="true" signature="2220:2464" ph="{...}" />
-                <marker date="1490836369687" expanded="true" signature="2511:2593" ph="{...}" />
-                <marker date="1490836369687" expanded="true" signature="2638:2718" ph="{...}" />
-                <marker date="1490836369687" expanded="true" signature="2760:3335" ph="{...}" />
-                <marker date="1490836369687" expanded="true" signature="2804:2859" ph="{...}" />
-                <marker date="1490836369687" expanded="true" signature="2896:2952" ph="{...}" />
-                <marker date="1490836369687" expanded="true" signature="3010:3104" ph="{...}" />
-                <marker date="1490836369687" expanded="true" signature="3162:3216" ph="{...}" />
-                <marker date="1490836369687" expanded="true" signature="3275:3329" ph="{...}" />
-                <marker date="1490836369687" expanded="true" signature="3358:3577" ph="{...}" />
-                <marker date="1490836369687" expanded="true" signature="3439:3491" ph="{...}" />
-                <marker date="1490836369687" expanded="true" signature="3522:3571" ph="{...}" />
+                <marker date="1490840429718" expanded="true" signature="44:4409" ph="{...}" />
+                <marker date="1490840429718" expanded="true" signature="51:405" ph="/* Any live cell with fewer than two live neighbours dies, as if caused by underpopulation. ... */" />
+                <marker date="1490840429718" expanded="true" signature="450:3232" ph="{...}" />
+                <marker date="1490840429718" expanded="true" signature="786:942" ph="{...}" />
+                <marker date="1490840429718" expanded="true" signature="1006:1162" ph="{...}" />
+                <marker date="1490840429718" expanded="true" signature="1270:1477" ph="{...}" />
+                <marker date="1490840429718" expanded="true" signature="1578:1778" ph="{...}" />
+                <marker date="1490840429718" expanded="true" signature="1879:2079" ph="{...}" />
+                <marker date="1490840429718" expanded="true" signature="2182:2384" ph="{...}" />
+                <marker date="1490840429718" expanded="true" signature="2491:2697" ph="{...}" />
+                <marker date="1490840429718" expanded="true" signature="2798:2998" ph="{...}" />
+                <marker date="1490840429718" expanded="true" signature="3039:3113" ph="{...}" />
+                <marker date="1490840429718" expanded="true" signature="3153:3226" ph="{...}" />
+                <marker date="1490840429718" expanded="true" signature="3268:3916" ph="{...}" />
+                <marker date="1490840429718" expanded="true" signature="3749:3910" ph="{...}" />
+                <marker date="1490840429718" expanded="true" signature="3938:4407" ph="{...}" />
+                <marker date="1490840429718" expanded="true" signature="4047:4095" ph="{...}" />
+                <marker date="1490840429718" expanded="true" signature="4126:4200" ph="{...}" />
+                <marker date="1490840429718" expanded="true" signature="4256:4316" ph="{...}" />
+                <marker date="1490840429718" expanded="true" signature="4346:4401" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>PopulationControl.Cell</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Cell</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -114,6 +118,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="editor.preferences.appearance" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.selected.package.jscs" value="" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -185,12 +193,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1490834486988</updated>
-      <workItem from="1490834490436" duration="1935000" />
+      <workItem from="1490834490436" duration="5938000" />
     </task>
+    <task id="LOCAL-00001" summary="PopulationControl">
+      <created>1490836440227</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1490836440227</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1935000" />
+    <option name="totallyTimeSpent" value="5938000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -203,13 +219,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="33" y="-4" width="1333" height="772" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -235,6 +252,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="PopulationControl" />
+    <option name="LAST_COMMIT_MESSAGE" value="PopulationControl" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="1" />
@@ -244,31 +265,29 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/GameOfLife/CellTests.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="98" column="73" lean-forward="true" selection-start-line="98" selection-start-column="73" selection-end-line="98" selection-end-column="73" />
+        <state relative-caret-position="2130">
+          <caret line="142" column="9" lean-forward="true" selection-start-line="142" selection-start-column="9" selection-end-line="142" selection-end-column="9" />
           <folding>
-            <marker date="1490836369687" expanded="true" signature="6:44" ph="..." />
-            <marker date="1490836369687" expanded="true" signature="66:3579" ph="{...}" />
-            <marker date="1490836369687" expanded="true" signature="73:427" ph="/* Any live cell with fewer than two live neighbours dies, as if caused by underpopulation. ... */" />
-            <marker date="1490836369687" expanded="true" signature="472:2724" ph="{...}" />
-            <marker date="1490836369687" expanded="true" signature="543:707" ph="{...}" />
-            <marker date="1490836369687" expanded="true" signature="771:934" ph="{...}" />
-            <marker date="1490836369687" expanded="true" signature="1011:1151" ph="{...}" />
-            <marker date="1490836369687" expanded="true" signature="1226:1365" ph="{...}" />
-            <marker date="1490836369687" expanded="true" signature="1460:1775" ph="{...}" />
-            <marker date="1490836369687" expanded="true" signature="1876:2121" ph="{...}" />
-            <marker date="1490836369687" expanded="true" signature="2220:2464" ph="{...}" />
-            <marker date="1490836369687" expanded="true" signature="2511:2593" ph="{...}" />
-            <marker date="1490836369687" expanded="true" signature="2638:2718" ph="{...}" />
-            <marker date="1490836369687" expanded="true" signature="2760:3335" ph="{...}" />
-            <marker date="1490836369687" expanded="true" signature="2804:2859" ph="{...}" />
-            <marker date="1490836369687" expanded="true" signature="2896:2952" ph="{...}" />
-            <marker date="1490836369687" expanded="true" signature="3010:3104" ph="{...}" />
-            <marker date="1490836369687" expanded="true" signature="3162:3216" ph="{...}" />
-            <marker date="1490836369687" expanded="true" signature="3275:3329" ph="{...}" />
-            <marker date="1490836369687" expanded="true" signature="3358:3577" ph="{...}" />
-            <marker date="1490836369687" expanded="true" signature="3439:3491" ph="{...}" />
-            <marker date="1490836369687" expanded="true" signature="3522:3571" ph="{...}" />
+            <marker date="1490840429718" expanded="true" signature="44:4409" ph="{...}" />
+            <marker date="1490840429718" expanded="true" signature="51:405" ph="/* Any live cell with fewer than two live neighbours dies, as if caused by underpopulation. ... */" />
+            <marker date="1490840429718" expanded="true" signature="450:3232" ph="{...}" />
+            <marker date="1490840429718" expanded="true" signature="786:942" ph="{...}" />
+            <marker date="1490840429718" expanded="true" signature="1006:1162" ph="{...}" />
+            <marker date="1490840429718" expanded="true" signature="1270:1477" ph="{...}" />
+            <marker date="1490840429718" expanded="true" signature="1578:1778" ph="{...}" />
+            <marker date="1490840429718" expanded="true" signature="1879:2079" ph="{...}" />
+            <marker date="1490840429718" expanded="true" signature="2182:2384" ph="{...}" />
+            <marker date="1490840429718" expanded="true" signature="2491:2697" ph="{...}" />
+            <marker date="1490840429718" expanded="true" signature="2798:2998" ph="{...}" />
+            <marker date="1490840429718" expanded="true" signature="3039:3113" ph="{...}" />
+            <marker date="1490840429718" expanded="true" signature="3153:3226" ph="{...}" />
+            <marker date="1490840429718" expanded="true" signature="3268:3916" ph="{...}" />
+            <marker date="1490840429718" expanded="true" signature="3749:3910" ph="{...}" />
+            <marker date="1490840429718" expanded="true" signature="3938:4407" ph="{...}" />
+            <marker date="1490840429718" expanded="true" signature="4047:4095" ph="{...}" />
+            <marker date="1490840429718" expanded="true" signature="4126:4200" ph="{...}" />
+            <marker date="1490840429718" expanded="true" signature="4256:4316" ph="{...}" />
+            <marker date="1490840429718" expanded="true" signature="4346:4401" ph="{...}" />
           </folding>
         </state>
       </provider>
